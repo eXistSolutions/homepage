@@ -1,0 +1,79 @@
+<div id="fh5co-footer">
+  {{ with .Site.Params.footer }}
+    <div class="row social">
+      <div class="container">
+        <div class="col-xs-12">
+          <h3>{{ .company | markdownify }}</h3>
+        </div>
+    </div>
+  </div>
+
+    <!--div class="row address">
+      <div class="container">
+        <div class="col-xs-12">
+          <ul class="footer-contact">
+            <li><i class="icon-envelope"></i><a href="mailto:{{ .email }}">{{ .email }}</a></li>
+            <li><i class="icon-phone"></i><a href="tel:{{ .phone }}">{{ .phone_prettified }}</a></li>
+          </ul>
+            <address>
+                {{ .address | markdownify }}
+            </address>
+        </div>
+      </div>
+    </div-->
+
+    <div class="row address">
+      <div class="container">
+        <div class="col-xs-12 col-md-4">
+          <ul class="footer-contact">
+            <li><i class="icon-envelope"></i><a href="mailto:{{ .email }}">{{ .email }}</a></li>
+            <li><i class="icon-phone"></i><a href="tel:{{ .phone }}">{{ .phone_prettified }}</a></li>
+          </ul>
+          <ul class="fh5co-social">
+            {{ if isset . "github" }}
+            <li><a href="{{ .github }}"><i class="icon-github"></i></a></li>
+            {{ end }}
+            {{ if isset . "twitter" }}
+            <li><a href="{{ .twitter }}"><i class="icon-twitter"></i></a></li>
+            {{ end }}
+            {{ if isset . "facebook" }}
+            <li><a href="{{ .facebook }}"><i class="icon-facebook"></i></a></li>
+            {{ end }}
+            {{ if isset . "vine" }}
+            <li><a href="{{ .vine }}"><i class="icon-vine"></i></a></li>
+            {{ end }}
+            {{ if isset . "linkedin" }}
+            <li><a href="{{ .linkedin }}"><i class="icon-linkedin"></i></a></li>
+            {{ end }}
+            {{ if isset . "instagram" }}
+            <li><a href="{{ .instagram }}"><i class="icon-instagram"></i></a></li>
+            {{ end }}
+          </ul>
+
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <address>
+            {{ .address1 | markdownify }}
+          </address>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <address>
+            {{ .address2 | markdownify }}
+          </address>
+        </div>
+
+      </div>
+    </div>
+
+  <div class="row imprint">
+      <div class="container">
+        <div class="col-xs-12">
+            <small>
+                {{ .copyright | markdownify }}
+            </small>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>
