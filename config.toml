@@ -1,4 +1,4 @@
-baseURL = "http://www.existsolutions.com"
+baseURL = "https://distracted-shirley-2e3bdc.netlify.app/"
 languageCode = "en-us"
 title = "eXist Solutions GmbH"
 theme = "hugo-icon"
