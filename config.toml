@@ -10,8 +10,9 @@ theme = "hugo-icon"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  # author = "Your name"
+  # description = "Cool description"
+  keywords = "eXist Solutions, eXist-db, XML Database, XQuery, XML, Document, Information, Consulting, Training, Support, Monitoring, Hosting, Security, Document Management, Information Management, Unified Information Management, Search, Web Application, Database"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
