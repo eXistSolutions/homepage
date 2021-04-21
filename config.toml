@@ -10,22 +10,24 @@ theme = "hugo-icon"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  # author = "Your name"
+  # description = "Cool description"
+  keywords = "eXist Solutions, eXist-db, XML Database, XQuery, XML, Document, Information, Consulting, Training, Support, Monitoring, Hosting, Security, Document Management, Information Management, Unified Information Management, Search, Web Application, Database"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   # img = "images/hero_bg.jpg"
-  logo = "images/existsolutions.svg"
-  title = "Full service for all your eXist-db needs"
-  # description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  logo = "images/existsolutions-logo.svg"
+  title = "Full service for all your eXist-db and TEI-Publisher needs"
+  # description = ""
 
 # Navigation section
 [params.nav]
   mission = "Our Mission"
   services = "Services"
   team = "Products"
-  contact = "Get In Touch"
+  # contact = "Get In Touch"
+  footer = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "images/existsolutions-icon.png"
 
@@ -73,37 +75,37 @@ theme = "hugo-icon"
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  description = "Full service for all your eXist-db needs."
+  # description = "Full service for all your eXist-db and TEI-Publisher needs."
 
   [[params.services.item]]
     icon = "icon-bubbles"
     title = "Consulting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-support"
     title = "Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-rocket"
     title = "Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-bar-chart-o"
     title = "Monitoring"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Training"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-database"
     title = "Hosting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
 # Work section
 [params.work]
@@ -120,7 +122,7 @@ theme = "hugo-icon"
     img = "images/img_2.jpg"
 
 
-# Team section
+# Products section (originally called "team" in hugo-icon theme)
 [params.team]
   enable = true
   title = "Products"
@@ -131,27 +133,29 @@ theme = "hugo-icon"
     position = "Digital TEI Publishing"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/tei-publisher-icon.png"
-    website = "#"
-    github = "#"
-    twitter = "#"
+    website = "https://teipublisher.com/"
+    github = "https://github.com/eeditiones/tei-publisher-app"
+    twitter = "https://twitter.com/tei_publisher"
 
   [[params.team.item]]
-    name = "E-Editiones"
-    position = "Digital TEI Publishing"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/e-editiones-icon.png"
-    website = "#"
-    github = "#"
-    twitter = "#"
-
-  [[params.team.item]]
-    name = "eXistdb"
-    position = "xml database"
+    name = "eXist-db"
+    position = "The Open Source Native XML Database"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/existdb-icon.png"
-    website = "#"
-    github = "#"
-    twitter = "#"
+    website = "http://exist-db.org/"
+    github = "https://github.com/eXist-db/exist"
+    twitter = "https://twitter.com/existdb"
+    youtube = "https://www.youtube.com/results?search_query=exist-db"
+
+
+  # [[params.team.item]]
+  #  name = "E-Editiones"
+  #  position = "Digital TEI Publishing"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #  img = "images/e-editiones-icon.png"
+  #  website = "#"
+  #  github = "#"
+  #  twitter = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -169,7 +173,7 @@ theme = "hugo-icon"
 
 # Contact section
 [params.contact]
-  enable = true
+  enable = false
   title = "Get In Touch"
   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
   name_placeholder = "Your name"
@@ -188,6 +192,7 @@ theme = "hugo-icon"
   phone_prettified = "+49 30 83 22 55 50"
   address1 = "Kielganstr. 4a<br>10783 Berlin<br>Germany"
   address2 = "Bonndorfer Strasse 45<br>79853 Lenzkirch<br>Germany"
+  imprint = "Registered with the district court in Freiburg i.Br.Germany<br>Company registration number: HRB 713975<br>VAT registration number: DE273180763<br>Director: Wolfgang Meier"
   copyright = "© COPYRIGHT 2021 • eXist Solutions GmbH"
-  github = "#"
   twitter = "https://twitter.com/existsolutions"
+  github = "https://github.com/eXistSolutions"
