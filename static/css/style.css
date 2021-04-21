@@ -241,13 +241,14 @@ p {
 }
 @media screen and (max-width: 768px) {
   #fh5co-home .fh5co-copy-inner h1 {
-    font-size: 30px;
+    font-size: 1.46em;
+    margin: 21px 0;
   }
 }
 @media screen and (min-width: 769px) {
   #fh5co-home .fh5co-copy-inner h1 {
-    font-size: 55px;
-    margin-bottom: 20px;
+    margin: 21px 0;
+    font-size: 1.5em;
     font-weight: 300;
   }
   #fh5co-home .fh5co-copy-inner h2 {
@@ -255,6 +256,33 @@ p {
     color: rgba(255, 255, 255, 0.7);
   }
 }
+
+@media screen and (min-width: 992px) {
+  #fh5co-home .fh5co-copy-inner h1 {
+    font-size: 1.5em;
+    margin: 22px 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #fh5co-home .fh5co-copy-inner h1 {
+    font-size: 1.9em;
+    margin: 22px 0;
+    font-weight: 300;
+  }
+  #fh5co-home .fh5co-copy-inner h2 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  #fh5co-home .fh5co-copy-inner h1 {
+    margin: 22px 0;
+    font-size: 2.45em;
+  }
+}
+
 #fh5co-home .fh5co-copy-inner a {
   color: var(--text-color-medium) !important;
   border-bottom: 1px solid var(--text-color-medium);
