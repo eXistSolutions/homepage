@@ -977,6 +977,15 @@ p {
   box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
 }
 
+#fh5co-footer .affiliate-logo {
+  display: block;
+  height: auto;
+  width: 100%;
+  min-width: 133px;
+  max-width: 330px;
+  position: relative;
+}
+
 #fh5co-footer p.footer-imprint {
   font-size: 80%;
   line-height: 1.4em;
