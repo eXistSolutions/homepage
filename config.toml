@@ -25,7 +25,8 @@ theme = "hugo-icon"
   mission = "Our Mission"
   services = "Services"
   team = "Products"
-  contact = "Get In Touch"
+  # contact = "Get In Touch"
+  footer = "Get In Touch"
   # Include logo instead if HOME:
   # logo = "images/existsolutions-icon.png"
 
@@ -169,7 +170,7 @@ theme = "hugo-icon"
 
 # Contact section
 [params.contact]
-  enable = true
+  enable = false
   title = "Get In Touch"
   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
   name_placeholder = "Your name"
@@ -188,6 +189,7 @@ theme = "hugo-icon"
   phone_prettified = "+49 30 83 22 55 50"
   address1 = "Kielganstr. 4a<br>10783 Berlin<br>Germany"
   address2 = "Bonndorfer Strasse 45<br>79853 Lenzkirch<br>Germany"
+  imprint = "Registered with the district court in Freiburg i.Br.Germany<br>Company registration number: HRB 713975<br>VAT registration number: DE273180763<br>Director: Wolfgang Meier"
   copyright = "© COPYRIGHT 2021 • eXist Solutions GmbH"
-  github = "#"
   twitter = "https://twitter.com/existsolutions"
+  github = "https://github.com/eXistSolutions"

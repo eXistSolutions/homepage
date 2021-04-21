@@ -950,9 +950,12 @@ p {
   -moz-box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
   box-shadow: inset 0px 10px 21px -15px rgba(0, 0, 0, 0.12);
 }
-#fh5co-footer p:last-child {
-  margin-bottom: 0;
+
+#fh5co-footer p.footer-imprint {
+  font-size: 80%;
+  line-height: 1.4em;
 }
+
 #fh5co-footer .fh5co-social {
   /*float: left;
   text-align: left;*/
