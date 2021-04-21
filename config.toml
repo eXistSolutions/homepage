@@ -126,12 +126,12 @@ theme = "hugo-icon"
 [params.team]
   enable = true
   title = "Products"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  # description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.team.item]]
     name = "TEI-Publisher"
     position = "Digital TEI Publishing"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = "TEI Publisher enables scholars and editors to publish their materials without becoming programmers, but also does not force them into a one-size-fits-all framework. Experienced developers will benefit by writing less code, avoiding redundancy, improve maintenance and interoperability - to just name a few. TEI Publisher is all about standards , modularity , reusability and sustainability!"
     img = "images/tei-publisher-icon.png"
     website = "https://teipublisher.com/"
     github = "https://github.com/eeditiones/tei-publisher-app"
@@ -140,7 +140,7 @@ theme = "hugo-icon"
   [[params.team.item]]
     name = "eXist-db"
     position = "The Open Source Native XML Database"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = "eXist-db is a high-performance open source native XML database—a NoSQL document database and application platform built entirely around XML technologies."
     img = "images/existdb-icon.png"
     website = "http://exist-db.org/"
     github = "https://github.com/eXist-db/exist"
