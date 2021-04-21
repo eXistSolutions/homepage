@@ -3,7 +3,9 @@
     <div class="col-xs-12">
       <div class="js-fullheight-home fh5co-copy">
         <div class="js-fullheight-home fh5co-copy-inner">
+          <a class="fh5co-content-nav" href="#" data-nav-section="services">
             <img src="{{ with .Site.Params.hero.logo }}{{ . | absURL }}{{ end }}" alt="" class="img-responsive">
+          </a>
             {{ with .Site.Params.hero.title }}
               <h1>{{ . | markdownify }}</h1>
             {{ end }}
