@@ -18,8 +18,8 @@ theme = "hugo-icon"
 [params.hero]
   # img = "images/hero_bg.jpg"
   logo = "images/existsolutions.svg"
-  title = "Full service for all your eXist-db needs"
-  # description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  title = "Full service for all your eXist-db and TEI-Publisher needs"
+  # description = ""
 
 # Navigation section
 [params.nav]
@@ -75,37 +75,37 @@ theme = "hugo-icon"
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  description = "Full service for all your eXist-db needs."
+  # description = "Full service for all your eXist-db and TEI-Publisher needs."
 
   [[params.services.item]]
     icon = "icon-bubbles"
     title = "Consulting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-support"
     title = "Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-rocket"
     title = "Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-bar-chart-o"
     title = "Monitoring"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-pencil"
     title = "Training"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
   [[params.services.item]]
     icon = "icon-database"
     title = "Hosting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    # description = ""
 
 # Work section
 [params.work]
@@ -122,7 +122,7 @@ theme = "hugo-icon"
     img = "images/img_2.jpg"
 
 
-# Team section
+# Products section (originally called "team" in hugo-icon theme)
 [params.team]
   enable = true
   title = "Products"
@@ -133,27 +133,29 @@ theme = "hugo-icon"
     position = "Digital TEI Publishing"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/tei-publisher-icon.png"
-    website = "#"
-    github = "#"
-    twitter = "#"
+    website = "https://teipublisher.com/"
+    github = "https://github.com/eeditiones/tei-publisher-app"
+    twitter = "https://twitter.com/tei_publisher"
 
   [[params.team.item]]
-    name = "E-Editiones"
-    position = "Digital TEI Publishing"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/e-editiones-icon.png"
-    website = "#"
-    github = "#"
-    twitter = "#"
-
-  [[params.team.item]]
-    name = "eXistdb"
-    position = "xml database"
+    name = "eXist-db"
+    position = "The Open Source Native XML Database"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/existdb-icon.png"
-    website = "#"
-    github = "#"
-    twitter = "#"
+    website = "http://exist-db.org/"
+    github = "https://github.com/eXist-db/exist"
+    twitter = "https://twitter.com/existdb"
+    youtube = "https://www.youtube.com/results?search_query=exist-db"
+
+
+  # [[params.team.item]]
+  #  name = "E-Editiones"
+  #  position = "Digital TEI Publishing"
+  #  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #  img = "images/e-editiones-icon.png"
+  #  website = "#"
+  #  github = "#"
+  #  twitter = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
