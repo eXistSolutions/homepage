@@ -17,7 +17,7 @@ theme = "hugo-icon"
 # Hero section (from here on is for icon theme)
 [params.hero]
   # img = "images/hero_bg.jpg"
-  logo = "images/existsolutions.svg"
+  logo = "images/existsolutions-logo.svg"
   title = "Full service for all your eXist-db and TEI-Publisher needs"
   # description = ""
 
