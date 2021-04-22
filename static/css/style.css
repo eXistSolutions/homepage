@@ -953,7 +953,7 @@ p {
   #fh5co-footer .address .container {
     padding: 0 15px;
   }
-  #fh5co-footer .imprint .container  {
+  #fh5co-footer .copyright .container  {
     padding: 1em 15px;
   }
 }
@@ -965,7 +965,7 @@ p {
   #fh5co-footer .address .container {
     padding: 0 0 1em 0;
   }
-  #fh5co-footer .imprint .container {
+  #fh5co-footer .copyright .container {
     padding: 1em 0;
   }
 }
@@ -1022,13 +1022,13 @@ p {
   outline: none;
 }
 
-#fh5co-footer .imprint {
+#fh5co-footer .copyright {
   background-color: var(--background-color-gray-medium);
   color: var(--text-color-inverted);
   font-size: 85% !important;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-footer .imprint small {
+  #fh5co-footer .copyright small {
     font-size: 70% !important;
   }
 }

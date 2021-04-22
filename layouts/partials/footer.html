@@ -39,15 +39,19 @@
 
         </div>
         <div class="col-xs-12 col-md-3">
-          <h5>Berlin Office</h5>
-          <address>
-            {{ .address | markdownify }}
-          </address>
+          {{ if isset . "address_title" }}
+            <h5>{{ .address_title | markdownify }}</h5>
+          {{ end }}
+          {{ if isset . "address" }}
+            <address>
+              {{ .address | markdownify }}
+            </address>
+          {{ end }}
         </div>
 
 
         <div class="col-xs-12 col-md-3">
-          <h5>Imprint</h5>
+          {{ if isset . "imprint_title" }}<h5>{{ .imprint_title | markdownify }}</h5>{{ end }}
           <p class="footer-imprint">
             {{ .imprint | markdownify }}
           </p>
@@ -63,7 +67,7 @@
       </div>
     </div>
 
-  <div class="row imprint">
+  <div class="row copyright">
       <div class="container">
         <div class="col-xs-12">
             <small>
