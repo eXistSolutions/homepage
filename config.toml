@@ -12,13 +12,13 @@ theme = "hugo-icon"
 [params]
   # author = "Your name"
   # description = "Cool description"
-  keywords = "eXist Solutions, eXist-db, XML Database, XQuery, XML, Document, Information, Consulting, Training, Support, Monitoring, Hosting, Security, Document Management, Information Management, Unified Information Management, Search, Web Application, Database"
+  keywords = "eXist Solutions, eXist-db, TEI Publisher, XML Database, XQuery, XML, Document, Information, Consulting, Training, Support, Monitoring, Hosting, Security, Document Management, Information Management, Unified Information Management, Search, Web Application, Database"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   # img = "images/hero_bg.jpg"
   logo = "images/existsolutions-logo.svg"
-  title = "Full service for all your eXist-db and TEI-Publisher needs"
+  title = "Full service for all your eXist-db and TEI Publisher needs"
   # description = ""
 
 # Navigation section
@@ -75,7 +75,7 @@ theme = "hugo-icon"
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  # description = "Full service for all your eXist-db and TEI-Publisher needs."
+  # description = "Full service for all your eXist-db and TEI Publisher needs."
 
   [[params.services.item]]
     icon = "icon-bubbles"
@@ -129,9 +129,9 @@ theme = "hugo-icon"
   # description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.team.item]]
-    name = "TEI-Publisher"
+    name = "TEI Publisher"
     position = "Digital TEI Publishing"
-    description = "TEI Publisher enables scholars and editors to publish their materials without becoming programmers, but also does not force them into a one-size-fits-all framework. Experienced developers will benefit by writing less code, avoiding redundancy, improve maintenance and interoperability - to just name a few. TEI Publisher is all about standards , modularity , reusability and sustainability!"
+    description = "TEI Publisher allows you to publish XML without becoming a programmer and without pushing you into a one-size-fits-all framework. It is all about standards and sustainability so scholars can sleep well knowing their edition is future-proof while experienced developers will benefit by writing less code, avoiding redundancy, improve maintenance and interoperability - to just name a few."
     img = "images/tei-publisher-icon.png"
     website = "https://teipublisher.com/"
     github = "https://github.com/eeditiones/tei-publisher-app"
@@ -140,7 +140,7 @@ theme = "hugo-icon"
   [[params.team.item]]
     name = "eXist-db"
     position = "The Open Source Native XML Database"
-    description = "eXist-db is a high-performance open source native XML database—a NoSQL document database and application platform built entirely around XML technologies."
+    description = "eXist-db is a high-performance open source NoSQL document database and feature-complete application platform. It natively supports XML and is built entirely around XML technologies across all layers which makes mapping technologies superfluous and increases productivity. From richly encoded scholarly material in TEI to  DocBook, JATS or large volumes of any XML data, eXist-db is an open source platform to best support your project."
     img = "images/existdb-icon.png"
     website = "http://exist-db.org/"
     github = "https://github.com/eXist-db/exist"
