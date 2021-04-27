@@ -140,7 +140,7 @@ theme = "hugo-icon"
   [[params.team.item]]
     name = "eXist-db"
     position = "The Open Source Native XML Database"
-    description = "eXist-db is a high-performance open source NoSQL document database and feature-complete application platform. It natively supports XML and is built entirely around XML technologies across all layers which makes mapping technologies superfluous and increases productivity. From richly encoded scholarly material in TEI to  DocBook, JATS or large volumes of any XML data, eXist-db is an open source platform to best support your project."
+    description = "eXist-db is a high-performance open source NoSQL document database and feature-complete application platform. It natively supports XML and is built around XML technologies across all layers which makes mapping technologies superfluous and increases productivity. From scholarly material in TEI to DocBook, JATS or large volumes of any XML data, it is the platform to best support your project."
     img = "images/existdb-icon.png"
     website = "http://exist-db.org/"
     github = "https://github.com/eXist-db/exist"
