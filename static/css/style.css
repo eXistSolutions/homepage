@@ -999,10 +999,18 @@ p {
 #fh5co-footer .fh5co-social a:first-of-type {
   padding-left: 0;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-footer .fh5co-social {
-    /*float: left;
-    text-align: left;*/
+
+#fh5co-footer .row.address div.col-xs-12:last-child h5 {
+    height: 6px;
+}
+
+@media screen and (max-width: 991px) {
+  #fh5co-footer .row.address div.col-xs-12:last-child h5 {
+    display: none;
+  }
+  #fh5co-footer .row.address div.col-xs-12:last-child {
+    margin-bottom: 30px;
+    padding: 0;
   }
 }
 #fh5co-footer .fh5co-social li {
@@ -1284,16 +1292,11 @@ p {
   background: url(../images/Preloader_2.gif) center no-repeat #fff;
 }
 
-@media screen and (min-width: 768px) {
-    .equal {
-	display: flex;
-	flex-wrap: wrap;
-    }
+@media screen and (min-width: 769px) {
+  .equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
-/* .equal { */
-/*   display: flex; */
-/*   display: -webkit-flex; */
-/*   flex-wrap: wrap; */
-/* } */
 /*# sourceMappingURL=style.css.map */
