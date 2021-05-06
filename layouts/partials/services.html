@@ -1,3 +1,7 @@
+<div class="col-md-12 text-center contact-button-services--top">
+  <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="footer">Get In Touch</a></p>
+</div>
+
 <div id="fh5co-services" data-section="services">
   {{ with .Site.Params.services }}
   {{ if .video }}
@@ -8,7 +12,7 @@
       <h2>{{ .title | markdownify }}</h2>
       <p>{{ .description | markdownify }}</p>
     </div>
-    
+
     {{ range .item }}
     <div class="col-md-4">
       <div class="service">
@@ -18,11 +22,11 @@
       </div>
     </div>
     {{ end }}
-    
-    <div class="col-md-12 text-center">
-      <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="footer">Get In Touch</a></p>
-    </div>
 
   </div>
   {{ end }}
 </div> <!-- END fh5co-services -->
+
+<div class="col-md-12 text-center contact-button-services--bottom">
+  <p><a href="#" class="btn btn-primary btn-outline fh5co-content-nav" data-nav-section="footer">Get In Touch</a></p>
+</div>

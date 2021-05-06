@@ -376,6 +376,27 @@ p {
   }
 }
 
+#fh5co-container .contact-button-services--top {
+  margin-top: 50px;
+}
+
+#fh5co-container .contact-button-services--top p {
+  margin-bottom: 0;
+}
+
+#fh5co-container .contact-button-services--bottom {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  #fh5co-container .contact-button-services--top {
+   display: none;
+  }
+  #fh5co-container .contact-button-services--bottom {
+    display: block;
+  }
+}
+
 #fh5co-about {
   display: -webkit-box;
   display: -moz-box;
